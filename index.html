@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Meeti</title>
   <!-- Favicon   -->
   <!-- Meta   -->
   <meta name="robots" content="index, follow">
@@ -17,5 +17,22 @@
 </head>
 <body>
 
+  <header class="header">
+    <div class="header__container">
+      <div class="header__flex">
+        <picture>
+          <source srcset="./build/img/logo.png" type="image/avif">
+          <source srcset="./build/img/logo.png" type="image/webp">
+          <img class="header__logo" src="./build/img/logo.png" alt="logo" loading="lazy" width="300" height="300">
+        </picture>
+
+        <nav class="header__menu">
+          <a href="#" class="header__link">Crear Grupo</a>
+          <a href="#" class="header__link">Iniciar Sesión</a>
+          <a href="#" class="header__link">Registrarse</a>
+        </nav>
+      </div>
+    </div>
+  </header>
 </body>
 </html>
