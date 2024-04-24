@@ -1,0 +1,68 @@
+@use "./buscar";
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.eventos {
+  @extend .buscar;
+
+  &__titulo {
+    @extend .buscar__titulo;
+  }
+
+  &__grid {
+    @extend .buscar__formulario;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__evento {
+    border: 1px solid v.$grisClaro;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__content {
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  &__meta {
+    font-size: 1.2rem;
+  }
+
+  &__nombre {
+    font-family: v.$fuente_principal;
+    font-weight: 900;
+    color: v.$gris;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+  }
+
+  &__img-user {
+    width: 6rem;
+    border-radius: 50%;
+  }
+
+  &__organizado {
+    margin-bottom: .2rem;
+    font-weight: 700;
+
+    @media (min-width: 768px) {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__nombre-user {
+    font-size: 1.2rem;
+  }
+}
