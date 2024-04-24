@@ -45,5 +45,38 @@
       </div>
     </div>
   </div>
+
+  <section class="buscar">
+    <div class="buscar__container">
+      <h2 class="buscar__titulo">busca un grupo en tu ciudad</h2>
+
+      <form class="buscar__formulario">
+        <div class="buscar__campo">
+          <label class="buscar__label" for="programacion">programación</label>
+          <select id="programacion" class="buscar__select">
+            <option value="" selected disabled>-- Selecciona --</option>
+            <option value="javaScrip">javaScrip</option>
+            <option value="React">React</option>
+            <option value="NodeJs">NodeJs</option>
+            <option value="Angular">Angular</option>
+          </select>
+        </div>
+
+        <div class="buscar__campo">
+          <label class="buscar__label" for="evento">programación</label>
+          <input id="evento" class="buscar__input" type="text" placeholder="Nombre del Evento">
+        </div>
+
+        <div class="buscar__campo">
+          <label class="buscar__label" for="ciudad">programación</label>
+          <input id="ciudad" class="buscar__input" type="text" placeholder="Ciudad o País">
+        </div>
+
+        <div class="buscar__campo">
+          <input class="buscar__boton" type="submit" value="Buscar">
+        </div>
+      </form>
+    </div>
+  </section>
 </body>
 </html>
