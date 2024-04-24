@@ -1,0 +1,51 @@
+@use "../base/variables" as v;
+
+
+.header {
+  padding-block: 2.4rem;
+
+  @media (min-width: 768px) {
+    padding-block: 3.2rem;
+  }
+
+  &__logo {
+    width: 25rem;
+    margin-inline: auto;
+
+    @media (min-width: 768px) {
+      width: 30rem;
+    }
+  }
+
+  &__flex {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      gap: 1.6rem;
+    }
+  }
+
+  &__link {
+    font-weight: 700;
+    color: v.$negro;
+
+    &:nth-child(1) {
+      color: v.$primario;
+    }
+  }
+}
