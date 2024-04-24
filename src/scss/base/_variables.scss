@@ -1,42 +1,45 @@
-// @font-face {
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-weight: 400;
-//   src: url("../../src/fonts/") format("truetype");
-// }
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../src/fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+}
 
-// @font-face {
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-weight: 600;
-//   src: url("../../src/fonts/") format("truetype");
-// }
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../src/fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
 
-// @font-face {
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-weight: 700;
-//   src: url("../../src/fonts/") format("truetype");
-// }
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../src/fonts/Raleway/Raleway-Black.ttf") format("truetype");
+}
 
-// @font-face {
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-weight: 900;
-//   src: url("../../src/fonts/") format("truetype");
-// }
+@font-face {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../src/fonts/Staatliches/Staatliches-Regular") format("truetype");
+}
 
 // Fuentes
-$fuente_principal: '', sans-serif;
+$fuente_principal: 'Raleway', sans-serif;
+$fuente_titulo: 'Staatliches', sans-serif;
 $paragraph: 400 1.4rem/1.5 $fuente_principal;
 $paragraph-tablet: 400 1.6rem/1.5 $fuente_principal;
-$title1: 900 4rem/1.2 $fuente_principal;
-$title2: 900 3.6rem/1.2 $fuente_principal;
-$title3: 900 3.2rem/1.2 $fuente_principal;
+$title1: 700 3.2rem/1.2 $fuente_titulo;
+$title2: 700 2.4rem/1.2 $fuente_titulo;
+$title3: 700 1.6rem/1.2 $fuente_titulo;
 
 // Colores
-$primario: #e8505b;
-$secundario: #455a64;
+$primario: #B8336A;
+$secundario: #068D9D;
+$terciario: #ff8015;
 $negro: #000;
 $blanco: #FFFFFF;
-$grisClaro: #eceeef;
+$gris: #484349;
+$grisClaro: #F2F2F2;
