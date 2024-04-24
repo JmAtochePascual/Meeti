@@ -21,13 +21,19 @@
 
   width: 100%;
   padding: .8rem 3.2rem;
+  border: none;
   display: inline-block;
   text-align: center;
   font-weight: 700;
   color: $color-texto;
   background-color: $colo-bg;
+  cursor: pointer;
 
   @media (min-width: 768px) {
     width: auto;
+
+    &:hover {
+      background-color: darken($colo-bg, 10%);
+    }
   }
 }

@@ -1,0 +1,53 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.buscar {
+  padding-block: 2.4rem;
+
+  @media (min-width: 768px) {
+    padding-block: 3.2rem;
+  }
+
+  &__titulo {
+    margin-bottom: 2.4rem;
+    text-align: center;
+    color: v.$gris;
+
+    @media (min-width: 768px) {
+      font-size: 3.2rem;
+    }
+  }
+
+  &__formulario {
+    display: grid;
+    gap: 1.6rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__label {
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    display: block;
+  }
+
+  &__select,
+  &__input {
+    width: 100%;
+    height: 100%;
+    padding: .8rem;
+    border: 1px solid v.$gris;
+  }
+
+  &__boton {
+    @include m.boton(v.$blanco, v.$primario);
+
+    @media (min-width: 768px) {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
