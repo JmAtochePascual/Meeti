@@ -1,0 +1,33 @@
+@mixin support_bg($url, $use_png: false) {
+  $url_image: if($use_png, "#{$url}.png", "#{$url}.jpg");
+  $url_webp: "#{$url}.webp";
+  $url_avif: "#{$url}.avif";
+
+  background-image: url($url_image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @supports (background-image: url($url_webp)) {
+    background-image: url($url_webp);
+  }
+
+  @supports (background-image: url($url_avif)) {
+    background-image: url($url_avif);
+  }
+}
+
+@mixin boton($color-texto, $colo-bg) {
+
+  width: 100%;
+  padding: .8rem 3.2rem;
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  color: $color-texto;
+  background-color: $colo-bg;
+
+  @media (min-width: 768px) {
+    width: auto;
+  }
+}
