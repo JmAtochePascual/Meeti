@@ -74,6 +74,6 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐Ver Proyecto en la WEB
 
-Puedes ver el proyecto en funcionamiento [aquí](https://jmatochepacual.github.io/Meeti).
+Puedes ver el proyecto en funcionamiento [aquí](https://jmatochepascual.github.io/Meeti/).
 
 Todos los derechos reservados Meeti 2024 ©.
