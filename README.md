@@ -1,55 +1,85 @@
-# ⚡️ Metti
+# ⚡️ Meeti
 
-Este proyecto es un sitio web diseñado para facilitar la conexión y creación de grupos basados en intereses comunes, permitiendo a los usuarios descubrir y unirse a eventos y comunidades en línea. Desde grupos de aficionados a la programación hasta amantes de la gastronomía, proporcionamos una interfaz intuitiva y amigable para la interacción del usuario, asegurando una experiencia de comunidad enriquecedora y accesible.
+Bienvenido a Meeti, una experiencia web inmersiva que revoluciona la forma en que disfrutamos y apreciamos el café de especialidad. Nuestro sitio web invita a los visitantes a sumergirse en un viaje sensorial, donde cada interacción evoca la pasión que ponemos en cada taza de café.
 
-## 🎯 Contenido
-
-1. 📝[Descripción](#descripción)
-2. 🛠️[Tecnologías y Herramientas](#tecnologías-y-herramientas)
-3. 🚀[Estructura del Proyecto](#estructura-del-proyecto)
-4. 🧑‍💻[Uso](#uso)
-5. 📌[Instalación](#instalación)
-6. 🏗️[Contribución](#contribución)
-7. ✨[Licencia](#licencia)
-8. 🙈[Imagen de Referencia](#imagen-de-rereferencia)
-9. 🌐[Ver Proyecto en la WEB](#ver-proyecto-en-la-web)
-
-## Descripción
-
-Meeti es una plataforma centrada en la comunidad que permite a los usuarios con intereses similares conectarse a través de eventos y grupos. Con una variedad de categorías que van desde la tecnología hasta la cocina y más, cada grupo y evento se presenta con el objetivo de fomentar la interacción, el aprendizaje y la colaboración entre sus miembros. Los visitantes pueden explorar eventos, unirse a grupos existentes, crear sus propios eventos, leer descripciones detalladas y participar en actividades comunitarias de manera sencilla.
+Este proyecto web cuenta con una interfaz intuitiva y adaptativa, brindando una navegación perfecta en cualquier dispositivo. Estructurado en seis secciones principales: página de inicio, nosotros, proceso de preparación, menú, galería y contacto. La implementación técnica prioriza el rendimiento y la experiencia de usuario.
 
 ## Tecnologías y Herramientas
 
-- **HTML5**: Para la estructura de la página.
-- **CSS3**: Para los estilos y el diseño visual.
-- **SCSS**: Preprocesador usado para generación de código css.
-- **Gulp**: Automatizador de tareas para la compilación de sass y optimización de imagenes.
-- **SVG Avif Webp**: Formatos de imagen para gráficos e iconos de alta calidad.
-- **Responsive Design**: Asegura que la web sea accesible en cualquier dispositivo.
+- **HTML5**: Lenguaje de marcado para la estructura de la página.
+- **CSS3**: Estilos para el diseño y presentación.
+- **SCSS/SASS**: Preprocesador CSS para una escritura más eficiente de estilos.
+- **Gulp**: Automatización de tareas como compilación de SCSS, optimización de imágenes y más.
+- **PostCSS**: Procesamiento de CSS con plugins como Autoprefixer y CSSnano.
+- **Google Fonts**: Tipografías web optimizadas.
+- **Responsive Design**: Diseño adaptable para todos los dispositivos.
+- **Formatos de imagen modernos**: Soporte para WebP y AVIF para optimizar el rendimiento.
+- **Favicon**: Iconos personalizados para diferentes dispositivos y plataformas.
 
 ## Estructura del Proyecto
 
-- **build/css/**: Carpeta con los estilos compilados.
-- **build/img/**: Carpeta con imágenes optimizadas para el sitio.
-- **src/fonts/**: Carpeta con fuentes locales para el proyecto.
-- **favicon/**: Iconos de la aplicación para diferentes dispositivos y navegadores.
-- **index.html**: Página principal.
+- **build/css**: Carpeta que contiene los archivos CSS compilados y optimizados para producción.
+- **build/img**: Carpeta con imágenes optimizadas en formatos WebP y AVIF para mejor rendimiento web.
+- **src/scss**: Carpeta con los archivos fuente SCSS organizados en módulos y componentes.
+- **src/img**: Carpeta con las imágenes originales sin optimizar.
+- **index.html**: Página de inicio que presenta la cafetería y sus principales características.
+- **nosotros.html**: Página que cuenta nuestra historia, valores y equipo.
+- **proceso.html**: Página que detalla nuestro proceso de selección y preparación del café.
+- **menu.html**: Carta completa con nuestras bebidas, postres y platos especiales.
+- **galeria.html**: Colección de fotografías que muestran nuestro ambiente y productos.
+- **contacto.html**: Página con formulario de contacto y ubicación.
 
 ## Uso
 
-Este proyecto utiliza Gulp para automatizar el proceso de compilación de archivos SCSS a CSS, facilitando el desarrollo y la implementación. Asegúrate de seguir los siguientes pasos para configurar tu entorno de desarrollo.
+Para visualizar el proyecto localmente, sigue estos pasos:
 
-Antes de comenzar, necesitarás tener Node.js y npm (Node Package Manager) instalados en tu máquina.
+1. Clona este repositorio:
+
+```
+git clone https://github.com/JMatochePascual/Meeti.git
+```
+
+2. Navega al directorio del proyecto:
+
+```
+cd Meeti
+```
+
+3. Abre el archivo `index.html` en tu navegador web preferido
+
+4. Opcionalmente, puedes usar un servidor local como Live Server para una mejor experiencia
+
+### Requisitos Previos
+
+Para trabajar con este proyecto necesitarás:
+
+- Node.js (versión 14 o superior)
+- npm (Node Package Manager)
+- Conocimientos básicos de la terminal/línea de comandos
 
 ## Instalación
 
-Desde el directorio raíz del proyecto, ejecuta el siguiente comando para instalar las dependencias necesarias, incluido Gulp y el compilador de Sass. Esto leerá el archivo package.json y instalará las dependencias listadas en devDependencies.
+Para comenzar a trabajar con este proyecto, sigue estos pasos:
+
+1. Clona este repositorio:
+
+```
+git clone https://github.com/jmatochepascual/Meeti.git
+```
+
+2. Navega al directorio del proyecto:
+
+```
+cd Meeti
+```
+
+3. Instala las dependencias:
 
 ```
 npm i
 ```
 
-Para compilar los archivos SCSS a CSS utilizando Gulp, puedes utilizar uno de los siguientes comandos
+4. Compila los archivos SCSS a CSS:
 
 ```
 gulp dev
@@ -57,13 +87,23 @@ gulp dev
 
 ## Contribución
 
-Si estás interesado en contribuir al proyecto, por favor sigue estos pasos:
+Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 1. Haz un fork del repositorio.
-2. Crea una nueva rama para tu característica (`git checkout -b mi-nueva-característica`).
-3. Compromete tus cambios (`git commit -am 'Añadir alguna característica'`).
-4. Empuja la rama (`git push origin mi-nueva-característica`).
-5. Abre un pull request.
+
+2. Crea una nueva rama para tu funcionalidad:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Realiza y confirma tus cambios:
+   ```bash
+   git commit -am 'Add new feature'
+   ```
+4. Sube los cambios a tu repositorio:
+   ```bash
+   git push origin feature-name
+   ```
+5. Abre un Pull Request desde tu repositorio hacia el proyecto principal
 
 ## Licencia
 
@@ -71,10 +111,10 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## Imagen de Rereferencia
 
-![](https://i.postimg.cc/43FdQBPM/Meetti.png)
+![](https://i.postimg.cc/1zJR79L5/Meeti.png)
 
-## Ver Proyecto en la WEB
+## ¡Visita Nuestro Proyecto!
 
-Puedes ver el proyecto en funcionamiento [aquí](https://jmatochepascual.github.io/Meeti/).
+¿Quieres ver Meeti en acción? ¡Haz clic aquí! 👉 [Visitar Meeti](https://jmatochepascual.github.io/Meeti/)
 
-Todos los derechos reservados Meeti 2024 ©.
+Hecho con 💚 por Meeti | ©2025 - Transformando tu café en una experiencia única
