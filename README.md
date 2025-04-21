@@ -1,20 +1,29 @@
-# ⚡️ Meeti
+# Meeti
 
 Bienvenido a Meeti, una experiencia web inmersiva que revoluciona la forma en que disfrutamos y apreciamos el café de especialidad. Nuestro sitio web invita a los visitantes a sumergirse en un viaje sensorial, donde cada interacción evoca la pasión que ponemos en cada taza de café.
 
 Este proyecto web cuenta con una interfaz intuitiva y adaptativa, brindando una navegación perfecta en cualquier dispositivo. Estructurado en seis secciones principales: página de inicio, nosotros, proceso de preparación, menú, galería y contacto. La implementación técnica prioriza el rendimiento y la experiencia de usuario.
 
-## Tecnologías y Herramientas
+## Caracteristicas
+
+- **Google Fonts**: Tipografías web optimizadas.
+- **Optimización SEO**: Metadatos y estructura optimizada para buscadores.
+- **Responsive Design**: Diseño adaptable para móviles, tablets y escritorio.
+- **Favicon**: Conjunto completo de iconos para diferentes dispositivos.
+- **Formatos de imagen modernos**: Soporte para WebP y AVIF para optimizar el rendimiento.
+
+## Tecnologías
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 - **HTML5**: Lenguaje de marcado para la estructura de la página.
 - **CSS3**: Estilos para el diseño y presentación.
 - **SCSS/SASS**: Preprocesador CSS para una escritura más eficiente de estilos.
 - **Gulp**: Automatización de tareas como compilación de SCSS, optimización de imágenes y más.
 - **PostCSS**: Procesamiento de CSS con plugins como Autoprefixer y CSSnano.
-- **Google Fonts**: Tipografías web optimizadas.
-- **Responsive Design**: Diseño adaptable para todos los dispositivos.
-- **Formatos de imagen modernos**: Soporte para WebP y AVIF para optimizar el rendimiento.
-- **Favicon**: Iconos personalizados para diferentes dispositivos y plataformas.
 
 ## Estructura del Proyecto
 
@@ -23,6 +32,12 @@ Este proyecto web cuenta con una interfaz intuitiva y adaptativa, brindando una 
 - **src/scss**: Carpeta con los archivos fuente SCSS organizados en módulos y componentes.
 - **src/img**: Carpeta con las imágenes originales sin optimizar.
 - **index.html**: Página de inicio que presenta y muestra las demas secciones.
+
+## Instalación
+
+> Para trabajar con este proyecto, necesitarás tener instalado:
+>
+> - **Node.js**: (versión 14 o superior)
 
 ## Uso
 
@@ -40,51 +55,21 @@ git clone https://github.com/JMatochePascual/Meeti.git
 cd Meeti
 ```
 
-3. Abre el archivo `index.html` en tu navegador web preferido
-
-4. Opcionalmente, puedes usar un servidor local como Live Server para una mejor experiencia
-
-### Requisitos Previos
-
-Para trabajar con este proyecto necesitarás:
-
-- Node.js (versión 14 o superior)
-- npm (Node Package Manager)
-- Conocimientos básicos de la terminal/línea de comandos
-
-## Instalación
-
-Para comenzar a trabajar con este proyecto, sigue estos pasos:
-
-1. Clona este repositorio:
-
-```
-git clone https://github.com/jmatochepascual/Meeti.git
-```
-
-2. Navega al directorio del proyecto:
-
-```
-cd Meeti
-```
-
 3. Instala las dependencias:
 
 ```
 npm i
 ```
 
-4. Compila los archivos SCSS a CSS:
+4. Abre el archivo `index.html` en tu navegador web preferido
 
-```
-gulp dev
-```
+5. Opcionalmente, puedes usar un servidor local como Live Server para una mejor experiencia
 
 ## Contribución
 
 Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
-1. Haz un fork del repositorio.
+1. Haz un fork del repositorio
 
 2. Crea una nueva rama para tu funcionalidad:
    ```bash
@@ -102,14 +87,6 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 ## Licencia
 
-Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Este proyecto se encuentra disponible bajo la licencia MIT. Puedes consultar los términos completos [aquí](https://opensource.org/licenses/MIT).
 
-## Imagen de Rereferencia
-
-![](https://i.postimg.cc/1zJR79L5/Meeti.png)
-
-## ¡Visita Nuestro Proyecto!
-
-¿Quieres ver Meeti en acción? ¡Haz clic aquí! 👉 [Visitar Meeti](https://jmatochepascual.github.io/Meeti/)
-
-Hecho con 💚 por Meeti | ©2025 - Transformando tu café en una experiencia única
+Desarrollado con 💚 por JMCode | © 2025 - Transformando ideas en soluciones digitales
