@@ -6,11 +6,11 @@ Este proyecto web cuenta con una interfaz intuitiva y adaptativa, brindando una 
 
 ## Caracteristicas
 
-- **Google Fonts**: Tipografías web optimizadas.
-- **Optimización SEO**: Metadatos y estructura optimizada para buscadores.
-- **Responsive Design**: Diseño adaptable para móviles, tablets y escritorio.
-- **Favicon**: Conjunto completo de iconos para diferentes dispositivos.
-- **Formatos de imagen modernos**: Soporte para WebP y AVIF para optimizar el rendimiento.
+- Tipografías web optimizadas.
+- Metadatos y estructura optimizada para buscadores.
+- Diseño adaptable para móviles, tablets y escritorio.
+- Conjunto completo de iconos para diferentes dispositivos.
+- Soporte para WebP y AVIF para optimizar el rendimiento.
 
 ## Tecnologías
 
@@ -19,19 +19,26 @@ Este proyecto web cuenta con una interfaz intuitiva y adaptativa, brindando una 
 ![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-- **HTML5**: Lenguaje de marcado para la estructura de la página.
-- **CSS3**: Estilos para el diseño y presentación.
-- **SCSS/SASS**: Preprocesador CSS para una escritura más eficiente de estilos.
-- **Gulp**: Automatización de tareas como compilación de SCSS, optimización de imágenes y más.
-- **PostCSS**: Procesamiento de CSS con plugins como Autoprefixer y CSSnano.
+- **HTML:** Lenguaje de marcado para estructurar el contenido de la página.
+- **CSS:** Lenguaje de estilos utilizado para definir la presentación visual y el diseño responsivo.
+- **JavaScript:** Lenguaje de programación que permite agregar interactividad y dinamismo.
+- **sass:** Preprocesador CSS para una escritura más eficiente de estilos.
+- **Gulp:** Automatización de tareas como compilación de SCSS, optimización de imágenes y más.
 
-## Estructura del Proyecto
+## Estructura del proyecto
 
-- **build/css**: Carpeta que contiene los archivos CSS compilados y optimizados para producción.
-- **build/img**: Carpeta con imágenes optimizadas en formatos WebP y AVIF para mejor rendimiento web.
-- **src/scss**: Carpeta con los archivos fuente SCSS organizados en módulos y componentes.
-- **src/img**: Carpeta con las imágenes originales sin optimizar.
-- **index.html**: Página de inicio que presenta y muestra las demas secciones.
+- **src:** Directorio que contiene el código fuente del proyecto.
+  - **css:** Directorio que contiene los archivos de estilos.
+  - **img:** Directorio que contiene las imágenes del proyecto.
+  - **fonts:** Directorio que contiene los archivos de fuentes.
+  - **scss:** Directorio que contiene los archivos de SCSS.
+  - **favicon:** Directorio que contiene los archivos del favicon.
+- **build:** Directorio que contiene los archivos optimizados para producción.
+  - **css:** Directorio que contiene los archivos de estilos optimizados.
+  - **img:** Directorio que contiene las imágenes optimizadas.
+- **index.html:** Archivo principal que contiene el código HTML del proyecto.
+- **gulpfile.js:** Archivo que contiene la configuración de Gulp.
+- **README.md:** Archivo que contiene la documentación del proyecto.
 
 ## Instalación
 
@@ -89,4 +96,4 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 Este proyecto se encuentra disponible bajo la licencia MIT. Puedes consultar los términos completos [aquí](https://opensource.org/licenses/MIT).
 
-Desarrollado con 💚 por JMCode | © 2025 - Transformando ideas en soluciones digitales
+<p align="center" style="margin-top: 120px;">Desarrollado con 🤍 por JMCode | Transformando ideas en soluciones digitales</p>
